@@ -1,1 +1,2 @@
-console.log("Hello Boolean");
+let greeting = process.argv[2] ?? "Hello Boolean";
+console.log(greeting);
